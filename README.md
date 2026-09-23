@@ -1,8 +1,8 @@
-#Customer Behavior Analysis
+# Customer Behavior Analysis
 
 This project analyzes the shopping behavior of 3,900 customers using SQL. The goal is to understand who the customers are, what they buy, and how they shop, so the business can make better decisions.
 
-#Dataset
+# Dataset
 3,900 customer purchase records
 Columns include: gender, age, category, item purchased, purchase amount, season, subscription status, discount applied, promo code used, previous purchases, frequency of purchases, payment method, shipping type and customer segment
 Tools Used
@@ -10,7 +10,7 @@ PostgreSQL (SQL)
 pgAdmin / DBeaver
 What I Did
 
-#I wrote SQL queries to answer the following questions:
+# I wrote SQL queries to answer the following questions:
 
 How do orders and revenue differ between male and female customers?
 Which age groups bring the most revenue?
@@ -23,7 +23,7 @@ Do customers who use discounts and promo codes spend more?
 Which payment methods are used the most?
 Which shipping types are the most popular and earn the most?
 
-#SQL concepts used: GROUP BY, aggregate functions (COUNT, SUM, AVG), CASE WHEN, RANK() window function and CTEs.
+# SQL concepts used: GROUP BY, aggregate functions (COUNT, SUM, AVG), CASE WHEN, RANK() window function and CTEs.
 
 Key Findings
 Total revenue is $233,081 and the average purchase is $59.76.
@@ -35,7 +35,7 @@ Customers who used discounts spent slightly less per purchase than those who did
 Free Shipping is the most popular shipping type and earns the most revenue.
 Jewelry and Blouse are top items in their categories.
 Payment methods are used almost equally.
-#Conclusion
+# Conclusion
 
 The business has a strong base of loyal customers, but it needs to attract more new customers. Discounts do not increase spending, and subscriptions help retention but not purchase size. The business can grow by targeting new customers and women, and by using conditional offers instead of general discounts.
 
