@@ -1,4 +1,4 @@
-##Customer Behavior Analysis
+#Customer Behavior Analysis
 
 This project analyzes the shopping behavior of 3,900 customers using SQL. The goal is to understand who the customers are, what they buy, and how they shop, so the business can make better decisions.
 
